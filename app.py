@@ -26,7 +26,7 @@ tab1, tab2, tab3 = st.tabs(["Mushuk", "Kuchuk", "Boyo'gli (Boyqush)"])
 
 with tab1:
    st.header("A cat")
-   st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+   st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
    
    st.line_chart(df["Salary_USD"])
 
